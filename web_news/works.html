@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ktra</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body onload="viewWork()">
+        <header class="relative top-0 z-10 h-[100px]">
+            <div class="fixed flex flex-row shadow-md items-center justify-end space-x-4 w-full px-[22%] pt-4 pb-4 text-2xl bg-white">
+                <a href="./home.html" class="hover:text-red-900"><b>Home</b></a>
+                <a href="./works.html" class="text-red-900"><b>Work</b></a>
+                <a href="./blog.html" class="hover:text-red-900"><b>Blog</b></a>
+                <a href="mailto:thanhpv174223@gmail.com" class="hover:text-red-900"><b>Contact</b></a>
+            </div>
+        </header>
+        <section class="flex flex-col mx-auto h-auto w-[56%]">
+            <div class="flex flex-col items-center justify-center w-full h-auto bg-white">
+                <div class="flex items-center justify-center h-[50px] items-center mt-0 w-full">
+                    <p class="hover:text-blue-700 text-3xl mb-4">Featured Work</p>
+                </div>
+                <div class="flex flex-col items-center p-2 bg-white w-full h-[350px] rounded-md" id="works-main">
+                </div>
+            </div>
+        </section>
+
+        <!--Modal-->
+        <div class="fixed z-0 invisible inset-0 bg-white bg-opacity-100 overflow-y-auto h-screen w-full" id="bvctmodalwork">
+            <section id="section_bvctwork" class="relative top-[80px] pl-6 w-full h-auto">
+
+            </section>
+        </div>
+        <script src="./ktra.js"></script>
+        <!-- <script src="./ktrawork.js"></script> -->
+    </body>
+</html>

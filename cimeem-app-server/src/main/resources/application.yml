@@ -1,0 +1,25 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    username: animewebvuighe@gmail.com   
+    password: jbivwdwhhlbbegto
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+amazonProperties:
+  endpointUrl: https://s3.us-east-2.amazonaws.com
+  accessKey: AKIARODJUAPIYN3JASUS
+  secretKey: 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
+  bucketName: thu-viddeo-public
+ 
+web:
+  cors:
+    allowed-origins: "http://localhost:3002"
+    allowed-methods: GET, POST, PATCH, PUT, DELETE, OPTIONS, HEAD
+    max-age: 3600
+    allowed-headers: "Requestor-Type"
+    exposed-headers: "X-Get-Header"

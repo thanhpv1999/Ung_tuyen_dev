@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ktra</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <header class="relative top-0 z-10 h-[100px]">
+            <div class="fixed flex flex-row shadow-md items-center justify-end space-x-4 w-full px-[22%] pt-4 pb-4 text-2xl bg-white">
+                <a href="./home.html" class="text-red-900"><b>Home</b></a>
+                <a href="./works.html" class="hover:text-red-900"><b>Work</b></a>
+                <a href="./blog.html" class="hover:text-red-900"><b>Blog</b></a>
+                <a href="mailto:thanhpv174223@gmail.com" class="hover:text-red-900"><b>Contact</b></a>
+            </div>
+        </header>
+
+        <section class="relative">
+            <div class="border-2 border-solid fixed flex top-[100px] right-0 mr-2 h-auto w-[15%] bg-white rounded-lg">
+                <div class="p-2 rounded-lg w-full">
+                    <p >Đóng góp ý kiến...</p>
+                    <hr class="mb-4">
+                    <div class="flex space-x-2 text-center justify-between items-center" onclick="ReadmyCV_after();">
+                        <div class="w-1/5 flex flex-col space-y-4 justify-center items-start">
+                            <p>1. </p>
+                            <p>2. </p>
+                            <p>3. </p>
+                            <p>... </p>
+                        </div>
+                        <div class="w-full mr-2 flex flex-col space-y-4 justify-center items-center">
+                            <div type="text" class="w-full border rounded-sm"> </div>
+                            <div type="text" class="w-full border rounded-sm"></div>
+                            <div type="text" class="w-full border rounded-sm"></div>
+                            <div type="text" class="w-full border rounded-sm"></div>
+                        </div>
+                    </div>
+                    <hr class="mt-4 mb-2 mr-2">
+                </div> 
+            </div>
+        </section>
+
+        <section class="flex flex-col h-auto w-full">
+            <div class="flex flex-row items-center space-x-4 justify-between px-[22%] w-full h-[300px] bg-white hover:bg-blue-100">
+                <div class="overflow-x-scroll overflow-y-auto flex flex-col items-between justify-start pl-4 h-[250px] w-full bg-white rounded-md overflow-hidden">
+                    <p class="text-2xl font-bold">Hi, I am BKACAD,</p>
+                    <p class="text-2xl font-bold mb-6">Front-End Developer</p>
+                    <pre class="mb-0">
+anisjnsja sdfghsdf ghjkasdfg sdfsdas dasdfgdsdfg anisjnsja sdfghsdf ghjkasdfg sdfsdas dasdfgdsdfg
+asdfghsd fghasd fgasdfgsdfghasdf ghjsdfghasdf anisjnsja sdfghsdf ghjkasdfg sdfsdas dasdfgdsdfg
+asdfyasd sdfgdf sdfghjkasd asdasdfgsdas anisjnsja sdfghsdf ghjkasdfg sdfsdas dasdfgdsdfg
+                    </pre>
+                    <button onclick="ReadmyCV();"
+                        class="mb-2 bg-red-500 border-2 border-white h-12 w-[100px] rounded-md uppercase text-[12px] text-white hover:bg-green-500">
+                        Đặt câu hỏi
+                    </button>
+                </div>
+                <div class="flex justify-end h-[250px] w-[50%]">
+                    <img src="./static/images.jpg" alt="loi anh" class="rounded-full h-[250px] w-[250px]">
+                </div>
+            </div>
+            <hr class="my-2 mx-40">
+            <div class="flex flex-col items-center justify-between px-[21%] w-full h-[300px] bg-white hover:bg-blue-100">
+                <div class="flex flex-row justify-between items-center h-2 w-full mt-8">
+                    <p class="hover:text-blue-700 pl-4"><b>Recent posts</b></p>
+                    <!-- <p class="hover:text-blue-700">View all</p> -->
+                    <a href="./blog.html" class="hover:text-blue-700"><b>View all</b></a>
+                </div>
+                <div class="flex flex-row justify-between items-center w-full h-[250px]" id="testtn">
+                <!-- <div class="space-y-4 justify-center items-center w-full h-[250px] overflow-scroll pr-6"> -->
+                    <div class="overflow-hidden bg-white w-full h-[200px] ml-4 pl-4 pt-2 rounded-md overflow-hidden">
+                        <p class="text-1xl font-bold">Hi, I am BKACAD, pham van thanh</p>
+                        <p class="text-1xl font-bold mb-2">pham van thanh</p>
+                        <pre class="">
+12 fre 2022 | Designer Patner
+                        </pre>
+                        <pre>
+ahsui ciaushuas xjjsncj najscas ahsui ciaushuas xjjsncj najscas ahsui ciaushuas xjjsncj najscas
+ahsj dajsn qkwjdo iqjwoidq ahsui ciaushuas xjjsncj najscas ahsui ciaushuas xjjsncj najscas
+uhdojw dqjwdi iwdjqiow jdiqowdj ahsui ciaushuas xjjsncj najscas ahsui ciaushuas xjjsncj najscas
+                        </pre>
+                    </div>
+                    <div class="overflow-hidden bg-white w-full h-[200px] ml-4 pl-4 pt-2 rounded-md overflow-hidden">
+                        <p class="text-1xl font-bold">Hi, I am BKACAD, pham van thanh</p>
+                        <p class="text-1xl font-bold mb-2">pham van thanh</p>
+                        <pre class="">
+12 fre 2022 | Designer Patner
+                        </pre>
+                        <pre>
+ahsuici aushuasx jjsncjn ajscas ahsuici aushuasx jjsncjn ajscas ahsuici aushuasx jjsncjn ajscas ahsuici aushuasx jjsncjn ajscas
+ahsj dajsnq kwjd oiqj woidq ahsuici aushuasx jjsncjn ajscas ahsuici aushuasx jjsncjn ajscas ahsuici aushuasx jjsncjn ajscas
+uhdo jwd qjwd iiwdjqi owjdi qowdj ahsuici aushuasx jjsncjn ajscas ahsuici aushuasx jjsncjn ajscas ahsuici aushuasx jjsncjn ajscas
+                        </pre>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-2 mx-40">
+            <div class="flex flex-col items-center justify-start px-[22%] w-full h-[450px] bg-white hover:bg-blue-100">
+                <div class="h-[50px] items-center mt-6 w-full">
+                    <!-- <p class="hover:text-blue-700">Featured Work</p> -->
+                    <a href="./works.html" class="hover:text-blue-700"><b>Featured Work</b></a>
+                </div>
+                <div class="flex flex-col items-center p-2 bg-white w-full h-[350px] rounded-md">
+                    <div class="flex flex-row items-center justify-start space-x-4 h-[170px] w-full">
+                        <img src="./static/a1_0.jpg" alt="loi anh" class="rounded-md h-[150px] w-[150px]">
+                        <div class="rounded-md h-[150px] w-full overflow-hidden">
+                            <p class="text-1xl font-bold mb-2">Hi, I am BKACAD, pham van thanh</p>
+                            <pre class="">
+<span class="px-2 text-white bg-black rounded-lg font-bold break-words">2022</span> | Designer Patner
+                            </pre>
+                            <pre>
+ahsuici aushuasx jjsncjnajsca ssdfghjklsd yuier sdf ghjkl ahsuici aushuasx jjsncjnajsca ssdfghjklsd yuier sdf ghjkl
+ahsjdaj sn qkwjd oiqjwoidqa sdfgh jsd fasdfgh as dfghj ahsuici aushuasx jjsncjnajsca ssdfghjklsd yuier sdf ghjkl
+                            </pre>
+                        </div>
+                    </div>
+                    <hr class="w-full my-2">
+                    <div class="flex flex-row items-center justify-start space-x-4 h-[170px] w-full">
+                        <img src="./static/download.jpg" alt="loi anh" class="rounded-md h-[150px] w-[150px]">
+                        <div class="rounded-md h-[150px] w-full overflow-hidden">
+                            <p class="text-1xl font-bold mb-2">Hi, I am BKACAD, pham van thanh</p>
+                            <pre class="">
+<span class="px-2 text-white bg-black rounded-lg font-bold break-words">2021</span> | Designer Patner
+                            </pre>
+                            <pre>
+ahsu iciaush uasx jjsnc jnaj scassdf ghjkl sdyuier sdfg hjkl ahsuici aushuasx jjsncjnajsca ssdfghjklsd yuier sdf ghjkl
+ahsj daj sn kwjdo iqjw oidqa sdfg hjsdf asdfgh asdf ghj ahsuici aushuasx jjsncjnajsca ssdfghjklsd yuier sdf ghjkl
+                            </pre>
+                        </div>
+                    </div>
+                    <hr class="w-full my-2">
+                </div>
+            </div>
+            
+            <footer class="flex flex-col space-y-4 items-start justify-center w-full h-[120px] pt-4">
+                <div class="flex flex-row space-x-2 items-start justify-center w-full h-[30px]">
+                    <img src="./static/fa.jpg" alt="loi anh" class="rounded-md h-[25px] w-[25px]">
+                    <img src="./static/ins.png" alt="loi anh" class="rounded-md h-[25px] w-[25px]">
+                    <img src="./static/tw.png" alt="loi anh" class="rounded-md h-[25px] w-[25px]">
+                    <img src="./static/zalo.jpg" alt="loi anh" class="rounded-md h-[25px] w-[25px]">
+                </div>
+                <p class="flex items-start justify-center w-full h-[30px]">
+                    Copyright @2022 All rights reserved
+                </p>
+            </footer>            
+        </section>
+
+        <!--Modal-->
+        <div class="fixed z-20 invisible inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-screen w-full" id="thanhmodal">
+            <div class="relative top-20 mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
+                <div>
+                    <p >Đặt câu hỏi về...</p>
+                    <hr class="mb-4">
+                    <div class="flex space-x-2 text-center justify-between items-center">
+                        <div class="w-1/5 flex flex-col space-y-4 justify-center items-start">
+                            <p>N.lực</p>
+                            <p>T.nguyện</p>
+                            <p>C.môn</p>
+                            <p>Y.tưởng</p>
+                        </div>
+                        <div class="w-4/5 flex flex-col space-y-4 justify-center items-center">
+                            <input id="inp_create_id" type="text" class="w-full border rounded-sm">
+                            <input id="inp_create_name" type="text" class="w-full border rounded-sm">
+                            <input id="inp_create_desc" type="text" class="w-full border rounded-sm">
+                            <input id="inp_create_price" type="text" class="w-full border rounded-sm">
+                        </div>
+                    </div>
+                    <hr class="mt-4 mb-1">
+                    <div class="flex space-x-2 items-end justify-end">
+                        <button onclick="ButtonCreateDone();" class="w-16 h-6 bg-blue-500 rounded-md text-white text-sm">Create</button>
+                        <button onclick="ButtonCancel();" class="w-16 h-6 bg-red-500 rounded-md text-white text-sm">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Modal-->
+        <div class="fixed z-20 invisible inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-screen w-full" id="thanhmodal_1">
+            <div class="relative top-20 mx-auto my-20 p-5 border w-[80%] shadow-lg rounded-md bg-white">
+                <div>
+                    <div class="w-4/5 flex flex-col space-y-4 justify-center items-center break-words">
+                        <!-- <input id="inp_create" type="text" class="w-3/5 h-[100px] border-2 border-solid rounded-sm break-words overflow-y-auto"> -->
+                        <textarea name="textarea" rows="10" cols="50" class="w-3/5 h-[100px] border-2 border-solid rounded-sm" id="inp_create">Write something here</textarea>
+                    </div>
+                    <hr class="mt-4 mb-2">
+                    <div class="flex space-x-2 items-end justify-end">
+                        <button onclick="Done();" class="w-16 h-6 bg-blue-500 rounded-md text-white text-sm">Done</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./ktra.js"></script>
+    </body>
+</html>

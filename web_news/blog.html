@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ktra</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-blue-100" onload="viewBlog()">
+        <header class="relative top-0 z-10 h-[100px]">
+            <div class="fixed flex flex-row shadow-md items-center justify-end space-x-4 w-full px-[22%] pt-4 pb-4 text-2xl bg-white">
+                <a href="./home.html" class="hover:text-red-900"><b>Home</b></a>
+                <a href="./works.html" class="hover:text-red-900"><b>Work</b></a>
+                <a href="./blog.html" class="text-red-900"><b>Blog</b></a>
+                <a href="mailto:thanhpv174223@gmail.com" class="hover:text-red-900"><b>Contact</b></a>
+            </div>
+        </header>
+        <section class="flex flex-col mx-auto h-auto w-[56%]">
+            <div class="flex flex-col items-center justify-center w-full h-auto space-y-4 mb-8" id="blogs-main">
+                <div class="flex flex-row justify-center items-start h-auto w-full mb-4">
+                    <p class="hover:text-blue-700 text-2xl">Blog</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Modal-->
+        <div class="fixed z-0 inset-0 bg-white bg-opacity-100 overflow-y-auto h-screen w-full" id="bvctmodal" style="visibility: hidden;">
+            <section id="section_bvct" class="relative top-[80px] pl-6 w-full h-auto">
+
+            </section>
+        </div>
+        <script src="./ktra.js"></script>
+    </body>
+</html>
