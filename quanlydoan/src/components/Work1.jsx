@@ -7,11 +7,11 @@ const Work1 = () =>{
 
     const navigate = useNavigate();
 
-    useEffect(() =>{
-        if(!(localStorage.getItem("token"))){
-            navigate("/Sigin")
-        }
-    });
+//     useEffect(() =>{
+//         if(!(localStorage.getItem("token"))){
+//             navigate("/Sigin")
+//         }
+//     });
     const field = () =>{
         navigate("/ChangeInforS")
     }
