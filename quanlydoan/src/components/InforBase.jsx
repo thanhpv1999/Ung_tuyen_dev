@@ -8,11 +8,11 @@ const InforBase = () => {
     const navigate = useNavigate();
     const token = localStorage.getItem("token");
 
-    useEffect(() =>{
-        if(!token){
-            navigate("/Sigin")
-        }
-    });
+//     useEffect(() =>{
+//         if(!token){
+//             navigate("/Sigin")
+//         }
+//     });
 
     return(
         <main>
