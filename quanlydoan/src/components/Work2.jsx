@@ -7,11 +7,11 @@ const Work2 = () =>{
     const [data, setData] = useState([]);
 
     const navigate = useNavigate();
-    useEffect(() =>{
-        if(!(localStorage.getItem("token"))){
-            navigate("/Sigin")
-        }
-    });
+//     useEffect(() =>{
+//         if(!(localStorage.getItem("token"))){
+//             navigate("/Sigin")
+//         }
+//     });
 
     useEffect(()=>{
         request({
